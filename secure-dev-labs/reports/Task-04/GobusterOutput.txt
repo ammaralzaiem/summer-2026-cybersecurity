@@ -1,0 +1,39 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://dhamarketplace.com/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-1.0.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/health               (Status: 200) [Size: 2]
+/contact              (Status: 200) [Size: 42747]
+/faqs                 (Status: 200) [Size: 77537]
+/gallery              (Status: 200) [Size: 71092]
+/admin                (Status: 200) [Size: 18694]
+/profile              (Status: 200) [Size: 18004]
+/register             (Status: 200) [Size: 18538]
+/marketing            (Status: 200) [Size: 20089]
+Progress: 4782 / 141709 (3.37%)[ERROR] Get "https://dhamarketplace.com/bobbyandnihal": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+/dashboard            (Status: 200) [Size: 19099]
+/login                (Status: 200) [Size: 18019]
+/affiliates           (Status: 200) [Size: 18491]
+/launch               (Status: 200) [Size: 19126]
+/advertise            (Status: 200) [Size: 17204]
+/properties           (Status: 200) [Size: 26929]
+/forgot-password      (Status: 200) [Size: 36291]
+Progress: 101650 / 141709 (71.73%)[ERROR] Get "https://dhamarketplace.com/2001-11161_53-0": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 118644 / 141709 (83.72%)[ERROR] Get "https://dhamarketplace.com/gif_webroot_spysweeper": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 130975 / 141709 (92.43%)[ERROR] context deadline exceeded (Client.Timeout or context cancellation while reading body)
+Progress: 131919 / 141709 (93.09%)[ERROR] context deadline exceeded (Client.Timeout or context cancellation while reading body)
+Progress: 139124 / 141709 (98.18%)[ERROR] Get "https://dhamarketplace.com/what-is-csharp": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+Progress: 141708 / 141709 (100.00%)
+===============================================================
+Finished
+===============================================================

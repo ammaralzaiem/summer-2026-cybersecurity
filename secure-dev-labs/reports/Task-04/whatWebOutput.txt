@@ -1,0 +1,122 @@
+WhatWeb report for https://dhamarketplace.com
+Status    : 200 OK
+Title     : Home
+IP        : 54.197.178.48
+Country   : UNITED STATES, US
+
+Summary   : Email[info@dhamarketplace.com], Frame, HTML5, HTTPServer[nginx/1.28.1], MetaGenerator[GIS PLUS], nginx[1.28.1], Open-Graph-Protocol[website], Script[application/ld+json], UncommonHeaders[x-content-type-options,referrer-policy,x-nextjs-cache,x-nextjs-prerender,x-nextjs-stale-time,permissions-policy], X-Frame-Options[DENY, DENY], X-Powered-By[Next.js], X-XSS-Protection[1; mode=block]
+
+Detected Plugins:
+[ Email ]
+        Extract email addresses. Find valid email address and 
+        syntactically invalid email addresses from mailto: link 
+        tags. We match syntactically invalid links containing 
+        mailto: to catch anti-spam email addresses, eg. bob at 
+        gmail.com. This uses the simplified email regular 
+        expression from 
+        http://www.regular-expressions.info/email.html for valid 
+        email address matching. 
+
+        String       : info@dhamarketplace.com
+
+[ Frame ]
+        This plugin detects instances of frame and iframe HTML 
+        elements. 
+
+
+[ HTML5 ]
+        HTML version 5, detected by the doctype declaration 
+
+
+[ HTTPServer ]
+        HTTP server header string. This plugin also attempts to 
+        identify the operating system from the server header. 
+
+        String       : nginx/1.28.1 (from server string)
+
+[ MetaGenerator ]
+        This plugin identifies meta generator tags and extracts its 
+        value. 
+
+        String       : GIS PLUS
+
+[ Open-Graph-Protocol ]
+        The Open Graph protocol enables you to integrate your Web 
+        pages into the social graph. It is currently designed for 
+        Web pages representing profiles of real-world things . 
+        things like movies, sports teams, celebrities, and 
+        restaurants. Including Open Graph tags on your Web page, 
+        makes your page equivalent to a Facebook Page. 
+
+        Version      : website
+
+[ Script ]
+        This plugin detects instances of script HTML elements and 
+        returns the script language/type. 
+
+        String       : application/ld+json
+
+[ UncommonHeaders ]
+        Uncommon HTTP server headers. The blacklist includes all 
+        the standard headers and many non standard but common ones. 
+        Interesting but fairly common headers should have their own 
+        plugins, eg. x-powered-by, server and x-aspnet-version. 
+        Info about headers can be found at www.http-stats.com 
+
+        String       : x-content-type-options,referrer-policy,x-nextjs-cache,x-nextjs-prerender,x-nextjs-stale-time,permissions-policy (from headers)
+
+[ X-Frame-Options ]
+        This plugin retrieves the X-Frame-Options value from the 
+        HTTP header. - More Info: 
+        http://msdn.microsoft.com/en-us/library/cc288472%28VS.85%29.
+        aspx
+
+        String       : DENY, DENY
+
+[ X-Powered-By ]
+        X-Powered-By HTTP header 
+
+        String       : Next.js (from x-powered-by string)
+
+[ X-XSS-Protection ]
+        This plugin retrieves the X-XSS-Protection value from the 
+        HTTP header. - More Info: 
+        http://msdn.microsoft.com/en-us/library/cc288472%28VS.85%29.
+        aspx
+
+        String       : 1; mode=block
+
+[ nginx ]
+        Nginx (Engine-X) is a free, open-source, high-performance 
+        HTTP server and reverse proxy, as well as an IMAP/POP3 
+        proxy server. 
+
+        Version      : 1.28.1
+        Website     : http://nginx.net/
+
+HTTP Headers:
+        HTTP/1.1 200 OK
+        Date: Wed, 09 Sep 2026 21:59:01 GMT
+        Content-Type: text/html; charset=utf-8
+        Transfer-Encoding: chunked
+        Connection: close
+        Server: nginx/1.28.1
+        X-Content-Type-Options: nosniff
+        X-Frame-Options: DENY
+        Referrer-Policy: strict-origin-when-cross-origin
+        Vary: rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding
+        x-nextjs-cache: HIT
+        x-nextjs-prerender: 1
+        x-nextjs-prerender: 1
+        x-nextjs-stale-time: 300
+        X-Powered-By: Next.js
+        Cache-Control: s-maxage=31536000
+        ETag: "dkinf9aqfg2flz"
+        Content-Encoding: gzip
+        X-Frame-Options: DENY
+        X-Content-Type-Options: nosniff
+        X-XSS-Protection: 1; mode=block
+        Referrer-Policy: strict-origin-when-cross-origin
+        Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+                                                                                     
